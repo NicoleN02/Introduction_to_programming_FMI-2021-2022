@@ -14,7 +14,7 @@ int main()
  	//sizeof(<arrayName>) / sizeof(<type>)
 
 	cout << sizeof(bool) << endl; //1
-	cout << sizeof(conditions) / sizeof(bool) << endl; // 10/1 = 1
+	cout << sizeof(conditions) / sizeof(bool) << endl; // 10/1 = 10
 	cout << sizeof(numbers) << endl; //20
 	cout << sizeof(numbers) / sizeof(int) << endl; //20 : 4 = 5
 	cout << sizeof(floatingNumbers) / sizeof(double) << endl; // 32 : 8 = 4
